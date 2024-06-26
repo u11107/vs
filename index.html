@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вурнарский Мясокомбинат</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="logo">
+            <h1>Вурнарский Мясокомбинат</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Продукция</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+    </div>
+</header>
+
+<section id="main" class="hero">
+    <div class="container">
+        <h2>Добро пожаловать!</h2>
+        <p>Вурнарский мясокомбинат предлагает лучшие колбасные изделия, произведенные с любовью и вниманием к качеству. Попробуйте нашу продукцию и убедитесь сами!</p>
+        <a href="#products" class="btn">Посмотреть продукциюfghfh</a>
+    </div>
+</section>
+
+<section id="about" class="content-section">
+    <div class="container">
+        <h2>О нас</h2>
+        <p>Вурнарский мясокомбинат - это многолетние традиции качества и вкуса. Мы производим колбасные изделия с использованием лучших ингредиентов и современных технологий.</p>
+        <img src="images/about_us.jpg" alt="О нас">
+    </div>
+</section>
+
+<section id="products" class="content-section">
+    <div class="container">
+        <h2>Продукция</h2>
+        <div class="product">
+            <h3>Салями</h3>
+            <img src="images/salami.jpg" alt="Салями">
+            <p>Наша салями изготавливается из высококачественного мяса и специй, которые придают ей уникальный вкус.</p>
+        </div>
+        <div class="product">
+            <h3>Копченая колбаса</h3>
+            <img src="images/smoked_sausage.jpg" alt="Копченая колбаса">
+            <p>Копченая колбаса с насыщенным вкусом и ароматом, идеальна для любителей настоящего мясного вкуса.</p>
+        </div>
+    </div>
+</section>
+
+<section id="reviews" class="content-section">
+    <div class="container">
+        <h2>Отзывы</h2>
+        <div class="review">
+            <blockquote>
+                <p>"Лучшая колбаса, которую я когда-либо пробовал!"</p>
+                <footer>- Иван Петров</footer>
+            </blockquote>
+        </div>
+        <div class="review">
+            <blockquote>
+                <p>"Отличное качество и вкус!"</p>
+                <footer>- Мария Иванова</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="content-section">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами для заказов и вопросов:</p>
+        <p>Email: info@vurnarmeat.com</p>
+        <p>Телефон: +7 123 456 7890</p>
+
+        <h3>Форма обратной связи</h3>
+        <form id="contactForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Вурнарский Мясокомбинат</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
